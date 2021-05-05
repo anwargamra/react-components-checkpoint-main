@@ -15,11 +15,7 @@ function App() {
       <ProfilePhoto/>
       <FullName/>
       <Adress/>
-
-      <div style={{ fontSize:30 }}>
       <Contact/>
-
-      </div>
       </div>
     </div>
   );

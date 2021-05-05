@@ -18,17 +18,15 @@ function Contact() {
           We welcome you to contact us for more information! 
           </h3 >
       
-      <Container>
+      <Container style={{ fontSize:30 }}>
       <Row>
-        <Col>           <Card.Link href="https://mail.google.com/mail/">Email</Card.Link>
- </Col>
-        <Col>          <Card.Link href="https://www.researchgate.net/profile/Anwar-Gamra">researchgate</Card.Link>
-</Col>
+        <Col>           <Card.Link href="https://mail.google.com/mail/">Email</Card.Link> </Col>
+        <Col>          <Card.Link href="https://www.researchgate.net/profile/Anwar-Gamra">researchgate</Card.Link> </Col>
       </Row>
       <Row>
         <Col>          <Card.Link href="https://tn.linkedin.com/in/anwar-gamra-a34365183?trk=people_directory">Linkeden</Card.Link>
 </Col>
-        <Col> +216 100 200</Col>
+        <Col> +216 100 200 </Col>
       </Row>
     </Container>
     </div>
