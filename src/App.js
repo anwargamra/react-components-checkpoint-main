@@ -6,24 +6,21 @@ import ProfilePhoto from './components/profile/ProfilePhoto';
 import FullName from './components/profile/FullName';
 import Adress from './components/profile/Adress';
 import Contact from './components/profile/Contact';
-import { Card, Button } from "react-bootstrap";
-
-
 
 function App() {
   return (
     <div className="App">
-     <div>
-     <ProfilePhoto/>
+
       <div>
+      <ProfilePhoto/>
       <FullName/>
       <Adress/>
-      <div style={{  display : 'flex', justifyContent: 'center', fontSize: 20 }}>
+
+      <div style={{ fontSize:30 }}>
       <Contact/>
 
       </div>
       </div>
-     </div>
     </div>
   );
 }
